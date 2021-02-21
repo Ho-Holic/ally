@@ -1,7 +1,6 @@
 #include "Random.hpp"
 
-namespace BE
-{
+namespace BE {
 FastRandomTraits::GeneratorType& FastRandomTraits::generator()
 {
     static std::random_device s_device;

@@ -7,8 +7,7 @@
 #include <random>
 #include "Assertions.hpp"
 
-namespace BE
-{
+
 template <typename RandomTraits>
 class RandomBase
 {
@@ -251,4 +250,3 @@ struct ServerRandomTraits
 
 using Random = RandomBase<FastRandomTraits>;
 using ServerRandom = RandomBase<ServerRandomTraits>;
-}
